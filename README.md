@@ -33,6 +33,6 @@ Buddy.newEventManager(ListenerFactory...);
 Currently, this library is in some parts incompletes but you can contribute to fix this!
 
 **TODO-LIST**:
-- README
-- Benchmarks
-- Filters
+-   README
+-   Benchmarks
+-   Filters
