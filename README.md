@@ -1,9 +1,9 @@
 # Buddy
 A fast and powerful EventManager that avoids Reflection.
 
-## Another one..?
+## Another one?
 
-**EventManager**, **EventBus**, **Pubsub** are various names used by libraries to describe a service of event posting to listeners yet
+**EventManager**, **EventBus**, **Pubsub** are various names used by libraries to describe a service of com.leafclient.buddy.event posting to listeners yet
 Buddy is another one of them...
 
 *Why would I use Buddy?*  
@@ -12,10 +12,10 @@ over time and to your conveniance if you modify them.
 
 ## Performances
 
-One of the main focus of most event libraries is performance. Buddy is probably a great solution for most circumstances. It uses
+One of the main focus of most com.leafclient.buddy.event libraries is performance. Buddy is probably a great solution for most circumstances. It uses
 Java's LambdaMetaFactory to provide high performances.
 
-_**TODO: Benchmark**_
+**TODO: Benchmark**
 
 ## Creating your first EventManager
 
@@ -33,6 +33,6 @@ Buddy.newEventManager(ListenerFactory...);
 Currently, this library is in some parts incompletes but you can contribute to fix this!
 
 **TODO-LIST**:
-- README
-- Benchmarks
-- Filters? (Shyrogan: Not sure if that's a good idea, would add additional operations to post method)
+  - README
+  - Benchmarks
+  - Filters

@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.AnnotatedElement;
 
 /**
- * Marks {@link java.lang.reflect.AnnotatedElement} as a registrable listener.
+ * Marks {@link java.lang.reflect.AnnotatedElement} as a registrable com.leafclient.buddy.listener.
  *
  * The {@link Listener#canRegister(AnnotatedElement)} method checks if this annotation
  * is present. Marking your listeners with this annotation is essential!

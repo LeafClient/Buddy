@@ -3,6 +3,7 @@ package fr.shyrogan.buddy.factory;
 import com.leafclient.buddy.Buddy;
 import com.leafclient.buddy.Event;
 import com.leafclient.buddy.factory.ListenerFactory;
+import com.leafclient.buddy.factory.exception.FactoryException;
 import com.leafclient.buddy.listener.Listener;
 
 import java.lang.invoke.LambdaMetafactory;
@@ -79,7 +80,7 @@ public final class MethodListenerFactory implements ListenerFactory {
 
                 return factoryResult;
             } else {
-                throw new RuntimeException("Unable to do lookup on method \"" + method.getName() + "\".");
+                throw new FactoryException("Unable to do lookup on method \"" + method.getName() + "\".");
             }
         } catch (Throwable e) {
             e.printStackTrace();

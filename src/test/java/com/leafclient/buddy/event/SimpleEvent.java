@@ -1,4 +1,4 @@
-package event;
+package com.leafclient.buddy.event;
 
 import com.leafclient.buddy.Event;
 

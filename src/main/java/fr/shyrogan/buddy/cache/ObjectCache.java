@@ -38,7 +38,7 @@ public final class ObjectCache {
     }
 
     /**
-     * Registers specified listener inside of the cache
+     * Registers specified com.leafclient.buddy.listener inside of the cache
      *
      * @param event Event's class
      * @param listener Listener

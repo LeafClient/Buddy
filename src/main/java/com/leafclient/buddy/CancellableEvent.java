@@ -8,7 +8,7 @@ public abstract class CancellableEvent implements Event {
     private boolean isCancelled;
 
     /**
-     * Cancels the event
+     * Cancels the com.leafclient.buddy.event
      */
     public CancellableEvent cancel() {
         isCancelled = true;

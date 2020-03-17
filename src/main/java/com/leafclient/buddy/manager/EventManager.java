@@ -30,7 +30,7 @@ public interface EventManager {
     /**
      * Registers one specific {@link Listener} to the {@link EventManager}.
      *
-     * @param eventClass The event we listen to
+     * @param eventClass The com.leafclient.buddy.event we listen to
      * @param listener Listener's instance
      */
     <T extends Event> void register(Class<T> eventClass, Listener<T> listener);
@@ -38,7 +38,7 @@ public interface EventManager {
     /**
      * Registers all {@link Listener} to the {@link EventManager}.
      *
-     * @param eventClass The event we listen to
+     * @param eventClass The com.leafclient.buddy.event we listen to
      * @param collection Listeners
      */
     <T extends Event> void register(Class<T> eventClass, Collection<Listener<?>> collection);
@@ -53,7 +53,7 @@ public interface EventManager {
     /**
      * Unregisters one specific {@link Listener} to the {@link EventManager}.
      *
-     * @param eventClass The event we listen to
+     * @param eventClass The com.leafclient.buddy.event we listen to
      * @param listener Listener's instance
      */
     <T extends Event> void unregister(Class<T> eventClass, Listener<T> listener);
@@ -61,7 +61,7 @@ public interface EventManager {
     /**
      * Unregisters all {@link Listener} to the {@link EventManager}.
      *
-     * @param eventClass The event we listen to
+     * @param eventClass The com.leafclient.buddy.event we listen to
      * @param collection Listeners
      */
     <T extends Event> void unregister(Class<T> eventClass, Collection<Listener<?>> collection);

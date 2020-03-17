@@ -1,8 +1,9 @@
-import com.leafclient.buddy.Buddy;
+package com.leafclient.buddy;
+
 import com.leafclient.buddy.manager.EventManager;
-import event.SimpleEvent;
+import com.leafclient.buddy.event.SimpleEvent;
 import fr.shyrogan.buddy.factory.MethodListenerFactory;
-import listener.SimpleListener;
+import com.leafclient.buddy.listener.SimpleListener;
 import org.junit.Test;
 
 public class Benchmark {
