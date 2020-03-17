@@ -1,4 +1,7 @@
 # Buddy
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a808ef941c5345359ab4ed182562bffb)](https://app.codacy.com/gh/LeafClient/Buddy?utm_source=github.com&utm_medium=referral&utm_content=LeafClient/Buddy&utm_campaign=Badge_Grade_Dashboard)
+
 A fast and powerful EventManager that avoids Reflection.
 
 ## Another one
