@@ -11,7 +11,6 @@ import fr.shyrogan.buddy.utility.MapHelper;
 
 import java.lang.reflect.Method;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * A highly extendable implementation of Buddy's {@link EventManager}.

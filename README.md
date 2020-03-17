@@ -1,7 +1,7 @@
 # Buddy
 A fast and powerful EventManager that avoids Reflection.
 
-## Another one?
+## Another one
 
 **EventManager**, **EventBus**, **Pubsub** are various names used by libraries to describe a service of com.leafclient.buddy.event posting to listeners yet
 Buddy is another one of them...
@@ -33,6 +33,6 @@ Buddy.newEventManager(ListenerFactory...);
 Currently, this library is in some parts incompletes but you can contribute to fix this!
 
 **TODO-LIST**:
-  - README
-  - Benchmarks
-  - Filters
+- README
+- Benchmarks
+- Filters
