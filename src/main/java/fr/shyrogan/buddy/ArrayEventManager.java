@@ -51,15 +51,13 @@ public class ArrayEventManager implements EventManager {
             return;
         }
 
-        final Map<Class<? extends Event>, HashSet<Listener<?>>> listeners = new HashMap<>();
         for(Method method : object.getClass().getDeclaredMethods()) {
             for(ListenerFactory factory : factories) {
                 if(factory.canApplyTo(method)) {
                     Class<? extends Event> eventClass = (Class<? extends Event>)method.getParameterTypes()[0];
                     Listener listener = factory.createListener(eventClass, object, method);
                     objectCache.register(eventClass, listener);
-                    Set<Listener<?>> set = listeners.computeIfAbsent(eventClass, e -> new HashSet<>());
-                    set.add(listener);
+                    register(eventClass, listener);
                 }
             }
         }
