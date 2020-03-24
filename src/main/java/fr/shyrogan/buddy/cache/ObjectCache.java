@@ -56,7 +56,7 @@ public final class ObjectCache {
      */
     public void registerAll(EventManager manager) {
         cache.forEach((eventClass, listeners) -> {
-            manager.unregister(eventClass, listeners);
+            manager.register(eventClass, listeners);
         });
     }
 
